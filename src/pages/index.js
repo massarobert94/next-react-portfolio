@@ -123,14 +123,14 @@ export default function Home() {
                 <Image src={taskManager} className="rounded-xl object-cover" width={300} height={300} />
               </div>
               <h4 className="text-2xl py-1">Task Manager</h4>
-              <p>Task planner web app created with <span className="text-teal-300">HTML</span>, <span className="text-teal-300">CSS</span>, and <span className="text-teal-300">JavaScript</span>. This was the final project for students in the Generation USA Junior Web Developer program that I was a Teacher's Assistant for.</p>
+              <p>Task planner web app created with <span className="text-teal-300">HTML</span>, <span className="text-teal-300">CSS</span>, and <span className="text-teal-300">JavaScript</span>. This was the final project for students in the Generation USA Junior Web Developer program that I was a Teachers Assistant for.</p>
             </div></a>
             <a href="https://massarobert94.github.io/country-api/"><div className="text-center shadow-lg p-10 rounded-xl my-10 basis-1/3 flex-1 dark:bg-white">
               <div className="flex justify-center">
                 <Image src={countriesApi} className="rounded-xl object-cover" width={300} height={300} />
               </div>
               <h4 className="text-2xl py-1">Countries API</h4>
-              <p>Country is chosen from dropdown, which is sent to <span className="text-teal-300">Rest Countries API</span> returning a variety of data and interesting info about the country including latitude and longitude of the country's capital city.
+              <p>Country is chosen from dropdown, which is sent to <span className="text-teal-300">Rest Countries API</span> returning a variety of data and interesting info about the country including latitude and longitude of the country capital city.
               <br></br><br></br>
               Those coordinates are then sent to <span className="text-teal-300">Open Weather API</span> returning current weather data for the city. Then, we use the country name as part of an API call to Maps Embed which returns an <span className="text-teal-300">iFrame</span> of a map of the country.</p>
             </div></a>
