@@ -101,7 +101,7 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <h3 className="text-4xl">Portfolio</h3>
+            <h3 className="text-4xl dark:text-white">Portfolio</h3>
           </div>
           <div className="flex flex-col justify-center gap-10 py-10 lg:flex-row lg:flex-wrap">
             <a href="https://massarobert94.github.io/weather-app/"><div className="text-center shadow-lg p-10 rounded-xl my-10 basis-1/3 flex-1 dark:bg-white">
