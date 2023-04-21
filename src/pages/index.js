@@ -14,6 +14,8 @@ import burkePortfolioItem from "../../public/responsive-white.jpg";
 import weatherApp from "../../public/weather-app.png";
 import taskManager from "../../public/task-manager.png";
 import countriesApi from "../../public/countries-api.png";
+import wpLogo from "../../public/wordpress-logo.png";
+import gaLogo from "../../public/ga-logo.png";
 import { useState } from 'react';
 
 
@@ -37,7 +39,7 @@ export default function Home() {
                 <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className="cursor-pointer text-2xl dark:text-white" />
               </li>
               <li>
-                <a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8"href="/resume.pdf" download>Resume</a>
+                <a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8"href="/resume0423.pdf" download>Resume</a>
                 </li>
             </ul>
           </nav>
@@ -96,6 +98,18 @@ export default function Home() {
                 <Image src={tailwindIcon} width={100} height={100} />
               </div>
               <h4 className="text-2xl py-1 mt-16">Tailwind</h4>
+            </div>
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
+              <div className="flex justify-center">
+                <Image src={wpLogo} width={100} height={100} />
+              </div>
+              <h4 className="text-2xl py-1 mt-16">Wordpress</h4>
+            </div>
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
+              <div className="flex justify-center">
+                <Image src={gaLogo} width={100} height={100} />
+              </div>
+              <h4 className="text-2xl py-1 mt-16">Google Analytics</h4>
             </div>
           </div>
         </section>
