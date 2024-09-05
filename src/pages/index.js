@@ -46,7 +46,8 @@ export default function Home() {
           <div className="text-center p-10">
             <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl">Robert Massa</h2>
             <h3 className="text-2xl py-2 md:text-3xl dark:text-white">Front end developer</h3>
-            <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-white">I am a Front End Developer with a mix of experience ranging from freelancing to fin-tech. I am passionate about creating, learning, and adapting.</p>
+            <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-white">I am a IT Professional with a mix of experience ranging from UI/UX Design and Development, to SEO Consulting and even IT Auditing. I am passionate about creating, learning, and adapting.</p>
+            <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-white">In my free time I am passionate about Brazilian Jiu Jitsu, weightlifting, skiing, and spending time at the beach.</p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-700 dark:text-white">
             <a href="https://www.linkedin.com/in/robertmassa310/"><AiFillLinkedin /></a>
